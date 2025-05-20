@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/platform-express": "^11.1.0",
+    "aws-sdk": "^2.1692.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "joi": "^17.13.3",
+    "multer": "^1.4.5-lts.2",
+    "multer-s3": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.12",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start": "nest start",
+    "dev": "nest start --watch",
+    "build": "tsc -p tsconfig.json"
+  }
+}
